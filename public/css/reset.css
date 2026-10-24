@@ -1,0 +1,91 @@
+/* BOX SIZING RULES */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* PREVENT FONT SIZE INFLATION */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  scroll-behavior: smooth;
+}
+
+/* REMOVE DEFAULT MARGIN IN FAVOUR OF BETTER CONTROL IN AUTHORED CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin-block-end: 0;
+}
+
+/* REMOVE LIST STYLES ON UL, OL ELEMENTS WITH A LIST ROLE */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* SET CORE BODY DEFAULTS */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* SET SHORTER LINE HEIGHTS ON HEADINGS AND INTERACTIVE ELEMENTS */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+/* BALANCE TEXT WRAPPING ON HEADINGS */
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+/* A ELEMENTS THAT DON'T HAVE A CLASS GET DEFAULT STYLES */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+}
+
+/* MAKE IMAGES EASIER TO WORK WITH */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* INHERIT FONTS FOR INPUTS AND BUTTONS */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* MAKE SURE TEXTAREAS WITHOUT A ROWS ATTRIBUTE ARE NOT TINY */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/* ANYTHING THAT HAS BEEN ANCHORED TO SHOULD HAVE EXTRA SCROLL MARGIN */
+:target {
+  scroll-margin-block: 5ex;
+}
