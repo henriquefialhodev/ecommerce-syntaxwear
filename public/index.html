@@ -3,14 +3,86 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SyntaxWear</title>
+    <title>SyntaxWear - Sneakers Store</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/tokens.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/components/header.css" />
   </head>
   <body>
-    <header class="site-header"></header>
+    <header class="site-header">
+      <a
+        href="./"
+        class="site-header-logo-link"
+        title="SyntaxWear - Sneakers Store"
+      >
+        <svg
+          width="150"
+          height="48"
+          aria-hidden="true"
+          focusable="false"
+          class="icon-logo"
+        >
+          <use href="./assets/images/icons/sprite.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <nav class="site-header-nav-center" aria-label="Categorias principais">
+        <ul>
+          <li><a href="#">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+          <li><a href="#">Outlet</a></li>
+        </ul>
+      </nav>
+      <nav class="site-header-nav-right" aria-label="Categorias principais">
+        <ul>
+          <li><a href="#">Nossas lojas</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li>
+            <a href="#"
+              ><svg
+                width="20"
+                height="19"
+                aria-hidden="true"
+                focusable="false"
+                class="icon-user"
+              >
+                <use
+                  href="./assets/images/icons/sprite.svg#icon-user"
+                ></use></svg
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><svg
+                width="20"
+                height="19"
+                aria-hidden="true"
+                focusable="false"
+                class="icon-help"
+              >
+                <use
+                  href="./assets/images/icons/sprite.svg#icon-help"
+                ></use></svg
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><svg
+                width="20"
+                height="19"
+                aria-hidden="true"
+                focusable="false"
+                class="icon-bag"
+              >
+                <use
+                  href="./assets/images/icons/sprite.svg#icon-bag"
+                ></use></svg
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main class="main-content">
       <section class="site-hero"></section>
       <section class="site-product-categories"></section>

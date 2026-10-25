@@ -1,0 +1,43 @@
+/* HEADER STYLES */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1260px;
+  z-index: 1000;
+  border-radius: 16px;
+  padding: 20px 28px;
+  background-color: #ffffff;
+}
+
+.site-header-logo-link .icon-logo {
+  height: 40px;
+}
+
+.site-header-nav-center ul,
+.site-header-nav-right ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 2rem;
+}
+
+.site-header-nav-center ul li a:hover,
+.site-header-nav-right ul li a:hover {
+  color: #7c3aed;
+}
+
+.site-header-nav-right ul li a:hover svg {
+  opacity: 0.7;
+}
+
+.site-header-nav-right ul li svg {
+  width: 20px;
+  height: 20px;
+}
