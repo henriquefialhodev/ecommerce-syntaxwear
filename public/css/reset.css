@@ -28,8 +28,8 @@ dd {
 }
 
 /* REMOVE LIST STYLES ON UL, OL ELEMENTS WITH A LIST ROLE */
-ul[role='list'],
-ol[role='list'] {
+ul,
+ol {
   list-style: none;
 }
 
