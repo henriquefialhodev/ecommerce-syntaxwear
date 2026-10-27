@@ -1,0 +1,63 @@
+/* PRODUCT CATEGORY STYLES */
+.site-product-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.category-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 500px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.category-btn {
+  position: relative;
+  z-index: 2;
+}
+
+.category-card-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #1a1a1a;
+}
+
+.category-card-link-casual {
+  background: url(../../assets/images/products/casual.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.category-card-link-sport {
+  background: url(../../assets/images/products/desportivo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.category-card-link-modern {
+  background: url(../../assets/images/products/moderno.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.category-card-link-futuristic {
+  background: url(../../assets/images/products/futuristico.jpg);
+  background-size: cover;
+  background-position: center;
+}
