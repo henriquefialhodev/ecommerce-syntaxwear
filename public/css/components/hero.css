@@ -1,7 +1,7 @@
 /* HERO STYLES */
 .site-hero {
-  background: url(/public/assets/images/banners/hero.jpg) no-repeat center;
-  height: 500px;
+  background: url(../../assets/images/banners/hero.jpg) no-repeat center;
+  height: 600px;
   background-size: cover;
   position: relative;
   border-radius: 25px;
