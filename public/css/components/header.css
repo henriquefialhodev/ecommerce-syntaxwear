@@ -4,15 +4,16 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  top: 20px;
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
+  width: calc(100% - 210px);
   max-width: 1260px;
   z-index: 1000;
   border-radius: 16px;
   padding: 10px 20px;
   background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 
 .site-header-logo-link .icon-logo {
@@ -40,4 +41,11 @@
 .site-header-nav-right ul li svg {
   width: 20px;
   height: 20px;
+}
+
+.site-header-nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }

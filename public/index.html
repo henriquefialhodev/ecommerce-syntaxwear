@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./css/components/header.css" />
     <link rel="stylesheet" href="./css/components/hero.css" />
     <link rel="stylesheet" href="./css/components/product-category.css" />
+    <link rel="stylesheet" href="./css/components/featured-products.css" />
+    <link rel="stylesheet" href="./css/components/footer.css" />
   </head>
   <body>
     <header class="site-header">
@@ -107,7 +109,7 @@
           <a href="#" class="category-card-link category-card-link-casual">
             <span class="overlay"></span>
             <span class="btn btn-primary category-btn">Casual</span>
-        </a>
+          </a>
         </div>
         <div class="category-card">
           <a href="#" class="category-card-link category-card-link-sport">
@@ -128,8 +130,142 @@
           </a>
         </div>
       </section>
-      <section class="site-featured-products"></section>
+      <section class="site-featured-products">
+        <div class="card featured-product-highlight">
+          <p class="featured-product-subtitle">Krypton One</p>
+          <h3 class="featured-product-title">Atitude urbana em cada passo</h3>
+          <div class="featured-product-highlight-buttons">
+            <a href="#" class="btn btn-primary">Feminino</a>
+            <a href="#" class="btn btn-primary">Masculino</a>
+          </div>
+        </div>
+        <div class="card featured-product-sneaker-purple"></div>
+        <div class="card featured-product-model"></div>
+        <div class="card featured-product-sneaker-pink"></div>
+        <div class="card featured-product-sneaker-black"></div>
+        <div class="card featured-product-sneaker-grey"></div>
+      </section>
     </main>
-    <footer class="site-footer"></footer>
+    <footer class="site-footer">
+      <div class="site-footer-container">
+        <div class="site-footer-column-left">
+          <div class="site-footer-email">
+            <label class="site-footer-email-text" for="site-footer-email-input"
+              >Subscreva a nossa newsletter:</label
+            >
+            <input
+              type="email"
+              id="site-footer-email-input"
+              class="site-footer-email-input"
+              placeholder="Digite o seu email"
+              required
+            />
+            <button
+              type="submit"
+              class="btn btn-primary site-footer-email-button"
+            >
+              Subscrever
+            </button>
+          </div>
+          <div class="site-footer-socials">
+            <label class="site-footer-socials-text">Redes sociais:</label>
+            <ul>
+              <li>
+                <a href="#" class="site-footer-social-link"
+                  ><svg
+                    width="16"
+                    height="16"
+                    aria-hidden="true"
+                    focusable="false"
+                    class="icon-facebook"
+                  >
+                    <use
+                      href="assets/images/icons/sprite.svg#icon-facebook"
+                    ></use></svg
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="site-footer-social-link"
+                  ><svg
+                    width="16"
+                    height="16"
+                    aria-hidden="true"
+                    focusable="false"
+                    class="icon-instagram"
+                  >
+                    <use
+                      href="assets/images/icons/sprite.svg#icon-instagram"
+                    ></use></svg
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="site-footer-social-link"
+                  ><svg
+                    width="16"
+                    height="16"
+                    aria-hidden="true"
+                    focusable="false"
+                    class="icon-whatsapp"
+                  >
+                    <use
+                      href="assets/images/icons/sprite.svg#icon-whatsapp"
+                    ></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="site-footer-column-right">
+          <ul class="site-footer-column-list site-footer-male">
+            <li class="site-footer-column-list-title">Masculino</li>
+            <li class="site-footer-column-list-item"><a href="#">Casual</a></li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Desportivo</a>
+            </li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Moderno</a>
+            </li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Futurístico</a>
+            </li>
+          </ul>
+          <ul class="site-footer-column-list site-footer-female">
+            <li class="site-footer-column-list-title">Feminino</li>
+            <li class="site-footer-column-list-item"><a href="#">Casual</a></li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Desportivo</a>
+            </li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Moderno</a>
+            </li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Futurístico</a>
+            </li>
+          </ul>
+          <ul class="site-footer-column-list site-footer-outlet">
+            <li class="site-footer-column-list-title">Outlet</li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Masculino</a>
+            </li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Feminino</a>
+            </li>
+          </ul>
+          <ul class="site-footer-column-list site-footer-about">
+            <li class="site-footer-column-list-title">Sobre</li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Sobre nós</a>
+            </li>
+            <li class="site-footer-column-list-item">
+              <a href="#">Contactos</a>
+            </li>
+            <li class="site-footer-column-list-item"><a href="#">Lojas</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer-bottom">
+        <p>&copy; 2026 SyntaxWear. Todos os direitos reservados.</p>
+      </div>
+    </footer>
   </body>
 </html>

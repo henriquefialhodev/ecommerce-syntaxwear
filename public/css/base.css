@@ -1,5 +1,51 @@
 /* BASE STYLES */
+
 body {
   font-family: var(--primary-font);
   color: #333333;
+}
+
+main {
+  padding: 40px 0 40px;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 28px;
+  width: 161px;
+  height: 48px;
+  border-radius: 25px;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border 0.3s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #6329a2;
+  color: #ffffff;
+  border: 2px solid #6329a2;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.btn-secondary {
+  color: #6329a2;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  padding: 10px 40px;
 }
