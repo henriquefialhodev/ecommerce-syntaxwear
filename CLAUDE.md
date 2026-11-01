@@ -32,6 +32,6 @@ The home page of a fictional sneaker store, built while following a lesson of th
 
 ## Status
 - Course lessons finished. The home page has a header, hero, product categories, featured products and footer.
-- Not published yet.
+- Published on Netlify: https://syntaxwear-sneakers-store.netlify.app/
 - All links point to `#`. The newsletter has no form handling. No JavaScript.
 - Desktop layout only: there are no media queries.

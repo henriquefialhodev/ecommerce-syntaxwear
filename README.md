@@ -2,6 +2,9 @@
 
 Home page of a fictional sneaker store, built with HTML and CSS.
 
+## Live site
+https://syntaxwear-sneakers-store.netlify.app/
+
 ## About
 I built this project while following a lesson of the DevQuest course. The page has a fixed header, a hero, product categories, a featured products grid and a footer with a newsletter field, social links and category links.
 
