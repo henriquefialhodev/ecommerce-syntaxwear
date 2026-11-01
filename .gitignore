@@ -1,0 +1,10 @@
+.qa/
+node_modules/
+.netlify/
+.env
+.env.*
+CLAUDE.local.md
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+desktop.ini
