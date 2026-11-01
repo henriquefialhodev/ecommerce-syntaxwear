@@ -1,0 +1,77 @@
+/* FEATURED PRODUCTS STYLES */
+.card {
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card.featured-product-highlight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  grid-area: highlight;
+  background-image: url(../../assets/images/products/card_imagem.jpg);
+}
+
+.featured-product-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+}
+
+.featured-product-title {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 32px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.featured-product-highlight-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card.featured-product-sneaker-purple {
+  grid-area: sneaker-purple;
+  background-image: url(../../assets/images/products/roxo-verde-grid.jpg);
+}
+
+.card.featured-product-model {
+  grid-area: model;
+  background-image: url(../../assets/images/products/modelo-feminino.jpg);
+}
+
+.card.featured-product-sneaker-pink {
+  grid-area: sneaker-pink;
+  background-image: url(../../assets/images/products/futurista-grid.jpg);
+}
+
+.card.featured-product-sneaker-black {
+  grid-area: sneaker-black;
+  background-image: url(../../assets/images/products/preto-branco-grid.jpg);
+}
+
+.card.featured-product-sneaker-grey {
+  grid-area: sneaker-grey;
+  background-image: url(../../assets/images/products/cinza-grid.jpg);
+}
+
+.site-featured-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  grid-template-areas:
+    'highlight highlight sneaker-purple sneaker-purple'
+    'highlight highlight model sneaker-pink'
+    'sneaker-black sneaker-black model sneaker-grey';
+  gap: 30px;
+}
